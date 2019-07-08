@@ -39,7 +39,7 @@ services:
 
   web:
     restart: always
-    image: odoo:11
+    image: odoo:12.0
     container_name: odoo
     depends_on:
       - db
@@ -57,7 +57,7 @@ services:
       - LETSENCRYPT_EMAIL=test@example.com
   db:
     restart: always
-    image: postgres:9.6
+    image: postgres:10
     environment:
       - POSTGRES_PASSWORD=sample_password
       - POSTGRES_USER=sample_user
