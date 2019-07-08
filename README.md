@@ -6,8 +6,8 @@ Some of the configuration is derived from <https://github.com/fatk/docker-letsen
 
 ## Running the example
 ### Prerequisites
-* [docker](https://docs.docker.com/engine/installation/) (>= 1.10)
-* [docker-compose](https://github.com/docker/compose/releases) (>= 1.8.1)
+* [docker](https://docs.docker.com/engine/installation/) (>= 18.09.7)
+* [docker-compose](https://github.com/docker/compose/releases) (>= 1.18.0)
 * access to (sub)domain(s) pointing to a publicly accessible server (required for TLS)
 
 ### Preparation
